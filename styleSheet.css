@@ -1,0 +1,75 @@
+/* Graham Thompson Skills assessment 02/05/2023 */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    align-self: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding:5px;
+    font-size: 20px;
+}
+
+#formInput, #liveViewContainer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+
+#outcome {
+    align-self: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+    align-self: center;
+}
+
+label, #name, #height, #save, #find {
+    width: 25%;
+    align-self: center;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    align-self: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#copyWrite {
+    font-size: 26px;
+    align-self: center;
+}
